@@ -13,7 +13,7 @@ The aim is to evaluate how well these models transcribe Telugu speech, using rig
 
 ## Dataset
 
-- **Source:** [Specify your dataset, e.g., Common Voice Telugu or custom dataset]
+- **Source:** [OpenSLR]
 - **Preprocessing:** Audio is resampled to 16kHz, normalized, and transcripts are cleaned (punctuation removed, lowercased, etc.).
 - **Splitting:** For each $k$-fold experiment, the dataset is divided into $k$ stratified folds to ensure balanced speaker and utterance distribution.
 
